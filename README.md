@@ -1,2 +1,0 @@
-# LABFORFOOD
-LABFORFOOD - Delivery
