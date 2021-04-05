@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="img/favicon.ico">
+        <title>LABFORFOOD | Delivery</title>
+        <link rel="stylesheet" href="css/ristoranti.css">
+    </head>
+    <body>
+        <nav>
+            <div class="fullpagemenu" id="nav">
+                <div class="banner">
+                    <img src="img/banner.jpg">
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="index.html" data-text="Home">Home</a></li>
+                        <li><a href="#ristoranti" target="_blank" data-text="Ristoranti">Ristoranti</a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" data-text="Facebook">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" data-text="Instagram">Instagram</a></li>
+                        <li><a href="https://twitter.com/" target="_blank" data-text="Twitter">Twitter</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank" data-text="YouTube">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+        </nav>
+        <header id="header-img">
+            <div>
+                <div class="d-flex justify-content-center">
+                    <div class="nav-menu">
+                        <a href="index.html"><p class="float-left text-white m-0 mt-3 h4">HOME</p></a>
+                        <a href="javascript:void(0);" data-toggle="modal" data-target="#registrationModal"
+                           ><p class="float-right text-white m-0 mt-3 h4 nav-link">Registrati</p></a>
+                        <a href="javascript:void(0);" data-toggle="modal" data-target="#loginModal"
+                           ><p class="float-right text-white m-0 mt-3 h4 nav-link">Login</p></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="cont">
+                <div class="d-flex justify-content-center header-flex">
+                    <p class="text">Hai fame? Sei nel posto giusto!</p>
+                </div>
+                <div class="d-flex justify-content-center mt-4">
+                    <input type="text" placeholder="Inserisci indirizzo di consegna" class="search-box">
+                    <button type="button" name="button" class="search-btn" onclick="window.location.href='ristoranti.html'">Trova Pasto</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="t1">
+            <h1 id="ristoranti">RISTORANTI</h1>
+        </div>
+
+        <div class="container" id="cont2">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="pizzeria_europa.html"><img class="card-img-top" src="img/pizza02.jpg" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <p class="card-text"><b>Pizzeria Europa</b></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge badge-secondary">Consegna: 1.50€</span>
+                                <small class="text-muted">
+                                    <i class="far fa-clock"></i> 30 Minuti
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="pizzeria_europa.html"><img class="card-img-top" src="img/pizza02.jpg" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <p class="card-text"><b>Pizzeria Europa</b></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge badge-secondary">Consegna: 1.50€</span>
+                                <small class="text-muted">
+                                    <i class="far fa-clock"></i> 30 Minuti
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="pizzeria_europa.html"><img class="card-img-top" src="img/pizza02.jpg" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <p class="card-text"><b>Pizzeria Europa</b></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge badge-secondary">Consegna: 1.50€</span>
+                                <small class="text-muted">
+                                    <i class="far fa-clock"></i> 30 Minuti
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="pizzeria_europa.html"><img class="card-img-top" src="img/pizza02.jpg" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <p class="card-text"><b>Pizzeria Europa</b></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge badge-secondary">Consegna: 1.50€</span>
+                                <small class="text-muted">
+                                    <i class="far fa-clock"></i> 30 Minuti
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="pizzeria_europa.html"><img class="card-img-top" src="img/pizza02.jpg" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <p class="card-text"><b>Pizzeria Europa</b></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge badge-secondary">Consegna: 1.50€</span>
+                                <small class="text-muted">
+                                    <i class="far fa-clock"></i> 30 Minuti
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="pizzeria_europa.html"><img class="card-img-top" src="img/pizza02.jpg" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <p class="card-text"><b>Pizzeria Europa</b></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge badge-secondary">Consegna: 1.50€</span>
+                                <small class="text-muted">
+                                    <i class="far fa-clock"></i> 30 Minuti
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="pizzeria_europa.html"><img class="card-img-top" src="img/pizza02.jpg" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <p class="card-text"><b>Pizzeria Europa</b></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge badge-secondary">Consegna: 1.50€</span>
+                                <small class="text-muted">
+                                    <i class="far fa-clock"></i> 30 Minuti
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="pizzeria_europa.html"><img class="card-img-top" src="img/pizza02.jpg" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <p class="card-text"><b>Pizzeria Europa</b></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge badge-secondary">Consegna: 1.50€</span>
+                                <small class="text-muted">
+                                    <i class="far fa-clock"></i> 30 Minuti
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="pizzeria_europa.html"><img class="card-img-top" src="img/pizza02.jpg" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <p class="card-text"><b>Pizzeria Europa</b></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge badge-secondary">Consegna: 1.50€</span>
+                                <small class="text-muted">
+                                    <i class="far fa-clock"></i> 30 Minuti
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!-- Registrazione modal -->
+        <div class="modal fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="registrationModal" >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Crea un nuovo account</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Login Form -->
+                        <form id="registrationForm"  onsubmit="return register(this);" action="#" method="post">
+
+                            <div class="form-group">
+                                <label for="remail">Inserisci il tuo indirizzo E-mail</label>
+                                <input type="email" id="remail" class="form-control" name="email" placeholder="E-mail" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pass1">Inserisci una password</label>
+                                <input type="password" id="pass1" class="form-control" name="login" placeholder="Password" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pass2">Conferma la password</label>
+                                <input type="password" id="pass2" class="form-control" name="login" placeholder="Conferma la password" required>
+                                <br>
+                                <input type="checkbox">
+                                <label>Do il mio consenso all'utilizzo per gli scopi specificati nell'informativa sulla privacy</label>
+                            </div>
+
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                        <button type="submit"  form="registrationForm" class="btn btn-primary">Registrati</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Login Modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Login Form -->
+                        <form id="loginForm" onsubmit="return login(this);" action="#" method="post">
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Accedi con indirizzo E-mail</label>
+                                <input type="email" id="email" class="form-control" name="login" placeholder="E-mail" required>
+                                <small class="form-text text-muted">Inserisci il tuo indirizzo E-mail</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="loginpassword">Inserisci la password per accedere</label>
+                                <input type="password" id="loginpassword" class="form-control" name="login" placeholder="Password" required>
+                                <small class="form-text text-muted">Inserisci la tua password</small>
+                                <br>
+                                <input type="checkbox">
+                                <label>Riccorda la password</label>
+                            </div>
+
+
+                        </form>
+
+                        <!-- Ricorda Passowrd -->
+
+                    </div>
+                    <div class="modal-footer">
+                        <div class=" mr-auto">
+                            <a class="underlineHover" href="#">Ha dimenticato la password?</a>
+                        </div>
+                        <button type="submit"  form="loginForm" class="btn btn-primary">Accedi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="foo-b">
+            <div class="c">
+                <div class="ftr">
+                    <h3>Metodi di pagamento</h3>
+                    <ul class="content">
+                      <a href="#"><img src="img/visa.svg"></a>
+                      <a href="#"><img src="img/mastercard.svg"></a>
+                      <a href="#"><img src="img/maestro.svg"></a>
+                      <a href="#"><img src="img/paypal.svg"></a>
+                    </ul>
+                </div>
+                <div class="ftr">
+                    <h3>Contatti</h3>
+                    <ul class="content">
+                      <li><a href="#">info@gmail.com</a></li>
+                      <li><a href="#">(+39)366766483</a></li>
+                      <li><a href="#">Roma,RM,00100</a></li>
+                    </ul>
+                </div>
+                <div class="ftr">
+                    <h3>Social</h3>
+                    <ul class="content">
+                        <li><a href="#"><i class="fa fa-facebook-square" id="facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" id="instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter-square" id="twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube-square" id="youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="ftr">
+                    <h3>Scarica l'App</h3
+                    <form action="#">
+                        <a href="#"><img src="img/apple.svg"></a>
+                        <br><br>
+                        <a href="#"><img src="img/google.png"></a>
+                    </form>
+                </div>
+
+            </div>
+        </footer>
+
+        <script   src="https://code.jquery.com/jquery-3.5.1.min.js"   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="   crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
